@@ -1,0 +1,17 @@
+.nav {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1.5rem;
+  font-family: 'Roboto Mono', monospace;
+  font-size: large;
+}
+
+.link {
+  border-bottom: 2px solid #000000;
+  transition: all 0.5s;
+}
+
+.link:hover {
+  border-bottom: 2px solid #fff;
+}

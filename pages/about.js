@@ -1,19 +1,9 @@
-import Image from 'next/image';
-import { Inter } from 'next/font/google';
 import Head from 'next/head';
-import Link from 'next/link';
-import Footer from '@/components/Footer';
-import ByVercel from '@/components/ByVercel';
-import Nextjs from '@/components/Next';
-import Projects from '@/components/Projects';
-
-const inter = Inter({ subsets: ['latin'] });
-
-export default function Home() {
+export default function About() {
   return (
     <>
       <Head>
-        <title>Home</title>
+        <title>About</title>
         <link rel='icon' href='/favicon.png' />
         <link rel='preconnect' href='https://fonts.googleapis.com' />
         <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin />
@@ -22,9 +12,7 @@ export default function Home() {
           rel='stylesheet'
         ></link>
       </Head>
-      <ByVercel />
-      <Nextjs />
-      <Projects />
+      <div>About</div>
     </>
   );
 }
